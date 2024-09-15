@@ -7,6 +7,15 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>Vito Clemente</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+        .nothing-you-could-do-regular {
+            font-family: "Nothing You Could Do", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+
         * {
             box-sizing: border-box;
             font-size: 1rem;
@@ -15,7 +24,7 @@
         }
 
         body {
-            font-family: Courier, monospace;
+            /* font-family: Courier, monospace; */
             line-height: 1.5;
             max-width: 500px;
             padding: 2rem;
@@ -33,10 +42,14 @@
         #contact {
             text-align: right;
         }
+
+        .fr {
+            float: right;
+        }
     </style>
 </head>
 
-<body>
+<body class="nothing-you-could-do-regular">
 
     <header>
         <h1>Vito Clemente</h1>
@@ -47,9 +60,7 @@
     <section>
         <h2>index:</h2>
         <ul>
-            <!-- <li>
-                <a href="https://vitoclemente.000webhostapp.com/" target="_blank">design</a>
-            </li> -->
+
             <li>
                 <a href="whitepark.html">white park</a>
             </li>
@@ -57,12 +68,19 @@
                 <a href="https://vitoclemente.w3spaces.com/" target="_blank">photography</a>
             </li>
             <li>
-                <a href="dntwrk.html">[ dn't_wrk ]</a>
+                <a href="dnt-wrk.html">test dnt-wrk</a>
             </li>
             <li>
                 <a href="404.html">test 404</a>
             </li>
         </ul>
+    </section>
+    <section>
+        <p>Andrej Tarkovskij passa per un autore difficile e talvolta oscuro, ma era uno sdegnoso avversario
+            dell'avanguardia. Le nozioni di sperimentazione e di ricerca sono per lui inconciliabili con gli scopi
+            dell'arte. Come Degas, non ammetteva che si confondesse l'esercizio con la creazione e che si trasformasse
+            in scopo quel che deve rimanere un mezzo. ( Wikiquote <br>Citazioni su Andrej Arsenevič Tarkovskij
+            <br>Morando Morandini )</p>
     </section>
     <br><br>
     <footer>
@@ -73,9 +91,8 @@
                 href="https://webdesign.tutsplus.com/articles/its-tough-out-there-a-look-at-brutalism-in-web-design--cms-26545"
                 target="_blank">brutalism in web design</a>.</p>
 
-        <p id="copyright">&copy; 2024</p>
+        <p>&copy; 2024 <a class="fr" href="#">back to top</a></p>
     </footer>
-    <!-- <a href="#top">back to top</a> -->
 
 </body>
 
